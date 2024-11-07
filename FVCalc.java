@@ -11,8 +11,6 @@ public class FVCalc {
 
 		System.out.println("After " +(int) years+ " years $"+(int) currentValue+" saved at "+ rate_p+"% will yield $"+(int) futureVal);
 		
-		System.out.println((int) futureVal);
-
 		//System.out.println( Math.ceil(futureVal));
 
 	}
