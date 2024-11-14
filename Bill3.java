@@ -8,7 +8,7 @@ public class Bill3 {
 		double check = Double.parseDouble(args[3]);
 		double price_each = Math.ceil(check/3);
 
-		String namesPrint = "Dear " + name3 + ", " + name2 + " and " + name1;
+		String namesPrint = "Dear " + name3 + ", " + name2 + ", and " + name1;
 		String pricePrint = ": pay " + price_each + " Shekels each.";
 	
 		System.out.println(namesPrint + pricePrint);
